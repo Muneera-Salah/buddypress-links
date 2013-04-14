@@ -8,10 +8,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-04-13 02:31+0300\n"
+"PO-Revision-Date: 2013-04-14 16:40+0300\n"
 "Last-Translator: @muneera_salah <muneera.salah@gmail.com>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.5.5\n"
+"Language: Arabic - العربية\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 
@@ -58,7 +59,7 @@ msgstr "تم حذف الرابط بنجاح"
 #: bp-links-admin.php:94
 msgid ""
 "You do not have sufficient permissions to edit link categories for this blog."
-msgstr " .لم يكن هناك صلاحيات كافيه لتعديل تصنيفات الرابط لهذه المدونة "
+msgstr " .لايوجد لديك صلاحيات كافيه لتعديل تصنيفات الرابط لهذه المدونة "
 
 #: bp-links-admin.php:122
 msgid "Categories deleted successfully"
@@ -66,19 +67,19 @@ msgstr "التصنيفات حذفت بنجاح"
 
 #: bp-links-admin.php:125
 msgid "There were errors when deleting categories."
-msgstr "هناك أخطاء عند حذف التصنيفات"
+msgstr "يوجد أخطاء عند حذف التصنيفات"
 
 #: bp-links-admin.php:129
 msgid "Unable to delete a category because it is assigned to one or more links"
-msgstr "غير قادر على حذف التصنيف لسبب تعيينه على واحد  أو أكثر من الروابط"
+msgstr "غير قادر على حذف التصنيف لسبب تعيينه على رابط  أو أكثر من رابط"
 
 #: bp-links-admin.php:179
 msgid "Link category slug from this name already exists."
-msgstr "الإسم لرابط التصنيف موجود بالفعل مسبقا"
+msgstr "الإسم لرابط التصنيف موجود  مسبقا"
 
 #: bp-links-admin.php:186
 msgid "Link category name must be %1$d to %2$d characters in length."
-msgstr "اسم رابط التصنيف يجب أن يكون %1$d إلى %2d عدداَ من الحروف "
+msgstr "حرف الى %2$d  %1$dإلى  اسم التصنيف لابد ان يكون طوله بين"
 
 #: bp-links-admin.php:191
 msgid "Link category name is required."
@@ -90,11 +91,11 @@ msgstr "وصف رابط التنصيف يجب أن يكون %1$d إلى %2$d ع�
 
 #: bp-links-admin.php:218
 msgid "Link category priority must be a number from %1$d to %2$d."
-msgstr ""
+msgstr "%2$d الى %1$d الأولوية لتصنيف الروابط لابد أن يكون رقم من "
 
 #: bp-links-admin.php:223
 msgid "Link category priority is required."
-msgstr "مطلوب رابط التصنيف ذو الأولويه"
+msgstr "أولوية تصنيف الرابط مطلوبة"
 
 #: bp-links-admin.php:232
 msgid "Link category saved!"
@@ -114,11 +115,11 @@ msgstr "إنشاء تصنيف جديد"
 
 #: bp-links-admin.php:239
 msgid "There were errors when saving the link category."
-msgstr "يوجد هناك أخطاء عند حفظ رابط التصنيف"
+msgstr "يوجد  أخطاء عند حفظ رابط التصنيف"
 
 #: bp-links-admin.php:268
 msgid "Edit Category"
-msgstr "حرر التصنيف"
+msgstr "تعديل التصنيف"
 
 #: bp-links-admin.php:269
 msgid "Update Category"
@@ -134,7 +135,7 @@ msgstr "إضافة تصنيف"
 
 #: bp-links-ajax.php:27
 msgid "Vote recorded."
-msgstr "تصويت مسجل"
+msgstr "التصويت مُسجل"
 
 #: bp-links-ajax.php:29
 msgid "You have already voted."
@@ -142,7 +143,7 @@ msgstr "لقد قمت بالتصويت مسبقا"
 
 #: bp-links-ajax.php:32
 msgid "There was a problem recording your vote. Please try again."
-msgstr "يوجد هناك مشكله في تسجيل صوتك . من فضلك أعد المحاوله مره آخرى ."
+msgstr "يوجد هناك مشكله في تسجيل تصويتك . من فضلك أعد المحاوله مرة آخرى ."
 
 #: bp-links-ajax.php:37
 msgid "You must be logged in to vote!"
@@ -150,7 +151,7 @@ msgstr " يجب عليك أن تسجل دخولك من أجل التصويت!"
 
 #: bp-links-ajax.php:87
 msgid "Auto-fill not available for this URL."
-msgstr ""
+msgstr "التدوين الآلي غير متوفرة لعنوان الرابط"
 
 #: bp-links-ajax.php:106
 msgid "Invalid request"
@@ -159,7 +160,7 @@ msgstr "طلب غير صحيح"
 #: bp-links-core.php:13 bp-links-core.php:14 bp-links-core.php:15
 #: bp-links-core.php:16 bp-links-core.php:17
 msgid "Every %1$d minutes"
-msgstr " "
+msgstr "كل %1$d دقائق "
 
 #: bp-links-core.php:326 bp-links-core.php:404 bp-links-core.php:471
 #: bp-links-core.php:501 bp-links-templatetags.php:1451
@@ -232,7 +233,7 @@ msgstr "تم حذف الرابط بنجاح"
 
 #: bp-links-core.php:832
 msgid "There was an error deleting the link, please try again."
-msgstr "يوجد هناك خطأ عند حذف  الرابط . من فضلك  أعد المحاوله مره آخرى ."
+msgstr "يوجد هناك خطأ عند حذف  الرابط . من فضلك  أعد المحاوله مرة آخرى ."
 
 #: bp-links-core.php:849
 msgid "Please fill in all of the required fields"
@@ -243,6 +244,8 @@ msgid ""
 "Link URL must be %1$d characters or less, please make corrections and re-"
 "submit."
 msgstr ""
+"رابط العنوان لابد أن يكون %1$d حروف أول أقل, الرجاء التأكد من ذلك و إعادة "
+"الإرسال "
 
 #: bp-links-core.php:872
 msgid "The URL you entered is not valid."
@@ -253,16 +256,20 @@ msgid ""
 "Link Name must be %1$d characters or less, please make corrections and re-"
 "submit."
 msgstr ""
+" رابط العنوان لابد أن يكون  %1$d حروف أو  أقل , الرجاء التأكد من ذلك وإعادة "
+"الإرسال."
 
 #: bp-links-core.php:906
 msgid ""
 "Link Description must be %1$d characters or less, please make corrections "
 "and re-submit."
 msgstr ""
+"وصف الرابط  لابد أن يكون  %1$d حروف أو  أقل , الرجاء التأكد من ذلك وإعادة "
+"الإرسال"
 
 #: bp-links-core.php:1003
 msgid "%1$s created the link %2$s"
-msgstr ""
+msgstr "%1$s تم إنشاء الرابط %2$s"
 
 #: bp-links-core.php:1018
 msgid "There was an error saving link details."
@@ -270,15 +277,15 @@ msgstr "هناك خطأ عند حفظ تفاصيل الرابط ."
 
 #: bp-links-core.php:1106
 msgid "Created a link"
-msgstr "تم إنشاء الرابط"
+msgstr "تم إنشاء رابط"
 
 #: bp-links-core.php:1107
 msgid "Voted on a link"
-msgstr "صوت على الرابط"
+msgstr "تم التصويت على الرابط"
 
 #: bp-links-core.php:1108
 msgid "Commented on a link"
-msgstr "علّق على الرابط"
+msgstr "تم التعليق على الرابط"
 
 #: bp-links-core.php:1164
 msgid "Link Example Event"
@@ -297,11 +304,7 @@ msgstr ""
 msgid "Link Avatar"
 msgstr "رابط الصورة الرمزية"
 
-#: bp-links-core.php:1662
-msgid "%s posted a comment on the link %s:"
-msgstr ""
-
-#: bp-links-core.php:1748
+#: bp-links-core.php:1662 bp-links-core.php:1748
 msgid "up"
 msgstr "أعلى"
 
@@ -309,25 +312,17 @@ msgstr "أعلى"
 msgid "down"
 msgstr "أسفل"
 
-#: bp-links-core.php:1751
-msgid "%1$s voted %2$s the link %3$s"
-msgstr ""
-
-#: bp-links-dtheme.php:72
-msgid "The activity of links I created."
-msgstr ""
-
-#: bp-links-dtheme.php:86
+#: bp-links-core.php:1751 bp-links-dtheme.php:72 bp-links-dtheme.php:86
 msgid "Show Link Created"
 msgstr "عرض الروابط المنشاة"
 
 #: bp-links-dtheme.php:87
 msgid "Show Link Comments"
-msgstr "عرض الروابط التي لديها تعليق التعليق"
+msgstr "عرض  تعليقات الرابط "
 
 #: bp-links-dtheme.php:88
 msgid "Show Link Votes"
-msgstr "مشاهدة الروابط التي لديها التصويت"
+msgstr "عرض تصويتات الرابط"
 
 #: bp-links-dtheme.php:109
 msgid "Search anything..."
@@ -351,20 +346,20 @@ msgstr "التصنيف:"
 
 #: bp-links-dtheme.php:138 bp-links-templatetags.php:1407
 msgid "All"
-msgstr ";g"
+msgstr "كل"
 
 #: bp-links-embed-classes.php:349 bp-links-embed-classes.php:1019
 msgid "Downloading content details from %1$s failed."
-msgstr ""
+msgstr "من تحميل تفاصيل المحتوى  %1$s فشل."
 
 #: bp-links-embed-classes.php:349
 #: themes/bp-links-default/single/forms/details.php:25
 msgid "URL"
-msgstr "رابط URL"
+msgstr "عنوان URL"
 
 #: bp-links-embed-classes.php:1009
 msgid "The URL you entered is not a valid %1$s link."
-msgstr ""
+msgstr "رابط عنوان (URL) الذي أدخلته غير صالح %1$s . "
 
 #: bp-links-embed-classes.php:1014
 msgid "The code you entered is not valid %1$s embedding code."
@@ -408,7 +403,7 @@ msgstr "لم يتم التعرف على رمز التضمين الذي أدخل�
 
 #: bp-links-embed.php:230
 msgid "Clear"
-msgstr "\tأزال"
+msgstr "أزال"
 
 #: bp-links-embed.php:231
 msgid "Fetch Page Details"
@@ -420,7 +415,7 @@ msgstr "الكشف عن الوسائط المتعددة التفاعلية:"
 
 #: bp-links-embed.php:339
 msgid "Edit Name and Description"
-msgstr "تعديل الأسم والوصف"
+msgstr "تعديل الاسم والوصف"
 
 #: bp-links-embed.php:352
 msgid "Thumbs"
@@ -466,96 +461,107 @@ msgstr ""
 
 #: bp-links-settings.php:15
 msgid "Global Settings"
-msgstr ""
+msgstr "إعدادت عالمية "
 
 #: bp-links-settings.php:21
 msgid "List Avatar Size"
-msgstr ""
+msgstr "قائمة حجم الصورالرمزية "
 
 #: bp-links-settings.php:22
 msgid "Set the default avatar size for link lists."
-msgstr ""
+msgstr "تعيين حجم صورة رمزية افتراضية لقائمة الروابط"
 
 #: bp-links-settings.php:39
 msgid "Link to local page?"
-msgstr ""
+msgstr "ربط إلى الصفحة المحلية؟"
 
 #: bp-links-settings.php:40
 msgid ""
 "The default behavior is to link the title link to the local link page when a "
 "link is clicked. Set this to No to send them directly to the external url."
 msgstr ""
+"السلوك الافتراضي هو ربط عنوان الرابط إلى صفحة الرابط المحلية عندما يتم "
+"النقر . تعيين هذا إلى لا لإرسالهم مباشرة غلى رابط خارجي url "
 
 #: bp-links-settings.php:54
 msgid "Content Settings"
-msgstr ""
+msgstr " إعدادات المحتوى"
 
 #: bp-links-settings.php:60
 msgid "Max. URL Characters"
-msgstr ""
+msgstr "Max. حروف عنوان URL "
 
 #: bp-links-settings.php:61
 msgid ""
 "Set this to the maximum number of characters allowed for a link URL. (Must "
 "be 255 or lower)"
 msgstr ""
+"  تعيين الحد الأقصى لعدد الأحرف المسموح بها عنوان الرابط URL .(يجب أن يكون "
+"255 أو أقل)"
 
 #: bp-links-settings.php:67
 msgid "Max. Name Characters"
-msgstr ""
+msgstr "Max.اسم الحروف"
 
 #: bp-links-settings.php:68
 msgid ""
 "Set this to the maximum number of characters allowed for a link name/title. "
 "(Must be 255 or lower)"
 msgstr ""
+"  تعيين الحد الأقصى لعدد الأحرف المسموح بها لاسم / عنوان الرابط .(يجب أن "
+"يكون 255 أو أقل)"
 
 #: bp-links-settings.php:74
 msgid "Max. Description Characters"
-msgstr ""
+msgstr "Max. وصف الحروف"
 
 #: bp-links-settings.php:75
 msgid ""
 "Set this to the maximum number of characters allowed for a link description."
-msgstr ""
+msgstr "تعيين الحد الأقصى لعدد الأحرف المسموح بها للحصول على وصف الرابط ."
 
 #: bp-links-settings.php:81
 msgid "Is description required?"
-msgstr ""
+msgstr "هل الوصف مطلوب ؟"
 
 #: bp-links-settings.php:82
 msgid ""
 "By default, every link must have a description. Set this to No to allow "
 "empty descriptions."
 msgstr ""
+"بشكل افتراضي، يجب أن يكون لكل وصلة وصفاً . تعيين هذا إلى لا للسماحأوصاف فارغة."
 
 #: bp-links-settings.php:92
 msgid "Category Input Type"
-msgstr ""
+msgstr "نوع تصنيف الإدخال"
 
 #: bp-links-settings.php:93
 msgid ""
 "The default behavior is to use radio buttons to display categories on the "
 "create form. Set this to Select to use a select box instead."
 msgstr ""
+"السلوك الافتراضي هو استخدام أزرار الراديو لعرض تصنيفات فيإنشاء النموذج. حدد "
+"هذا لاختار استخدام مربعات الخيارات بدلا من ذلك."
 
 #: bp-links-settings.php:107
 msgid "Voting Settings"
-msgstr ""
+msgstr "إعدادات التصويت"
 
 #: bp-links-settings.php:113
 msgid "Can members change their vote?"
-msgstr ""
+msgstr "يمكن للأعضاء تغير تصويتهم؟"
 
 #: bp-links-settings.php:114
 msgid ""
 "The default behavior is to allow members to change their vote. Set this to "
 "No to prevent vote changing."
 msgstr ""
+"السلوك الافتراضي للسماح للأعضاء لتغيير تصويتهم. حدده إلىلا لمنع تغيير "
+"التصويت."
 
 #: bp-links-settings.php:124
 msgid "Record voting activity?"
-msgstr ""
+msgstr "سجل التصويت نشط؟"
 
 #: bp-links-settings.php:125
 msgid ""
@@ -565,7 +571,7 @@ msgstr ""
 
 #: bp-links-settings.php:139
 msgid "Profile Settings"
-msgstr ""
+msgstr "إعدادات الملف الشخصي "
 
 #: bp-links-settings.php:145 bp-links-settings.php:188
 msgid "Nav Position"
@@ -589,7 +595,7 @@ msgstr ""
 
 #: bp-links-settings.php:159 bp-links-settings.php:196
 msgid "Max. Activity History"
-msgstr ""
+msgstr "Max.تاريخ النشاط"
 
 #: bp-links-settings.php:160
 msgid ""
@@ -602,17 +608,19 @@ msgstr ""
 
 #: bp-links-settings.php:170
 msgid "Groups Settings"
-msgstr ""
+msgstr "اعدادات المجموعات"
 
 #: bp-links-settings.php:176
 msgid "Groups integration"
-msgstr ""
+msgstr "تكامل المجموعات"
 
 #: bp-links-settings.php:177
 msgid ""
 "Integration with the groups component is On by default. Set this to Off to "
 "disable all integration with groups."
 msgstr ""
+"التكامل مع المكون مجموعات متاحة بشكل افتراضي. حدده إلى إيقاف لتعطيل التكامل "
+"معالمجموعات."
 
 #: bp-links-settings.php:189
 msgid ""
@@ -647,59 +655,59 @@ msgstr ""
 
 #: bp-links-strings.php:12
 msgid "Loading sharing options has failed."
-msgstr ""
+msgstr "فشل تحميل خيارات المشاركة"
 
 #: bp-links-strings.php:13
 msgid "My Group Links"
-msgstr ""
+msgstr "روابط مجموعتي "
 
 #: bp-links-strings.php:14
 msgid "Please Choose"
-msgstr ""
+msgstr "الرجاء الاختيار"
 
 #: bp-links-strings.php:15
 msgid "Remove from Group"
-msgstr ""
+msgstr "إزالة من المجموعة"
 
 #: bp-links-strings.php:16
 msgid "Remove from Profile"
-msgstr ""
+msgstr "إزالة من الملف الشخصي "
 
 #: bp-links-strings.php:17
 msgid "Removing this link from your profile has failed."
-msgstr ""
+msgstr "فشلت إزالة هذا الرابط من ملفك الشخصي . "
 
 #: bp-links-strings.php:18
 msgid "Removing this link from this group has failed."
-msgstr ""
+msgstr "فشلت إزالة هذا الرابط من هذه المجموعة  . "
 
 #: bp-links-strings.php:19
 msgid "Select a group:"
-msgstr ""
+msgstr "اختر المجموعة:"
 
 #: bp-links-strings.php:20
 msgid "Share"
-msgstr ""
+msgstr "شارك"
 
 #: bp-links-strings.php:21
 msgid "Share Now"
-msgstr ""
+msgstr "شارك الآن"
 
 #: bp-links-strings.php:22
 msgid "Share this link in:"
-msgstr ""
+msgstr "شارك هذا الرابط في :"
 
 #: bp-links-strings.php:23
 msgid "Sharing a link with yourself is not allowed."
-msgstr ""
+msgstr "مشاركة رابط مع نفسك غير مسموح ."
 
 #: bp-links-strings.php:24
 msgid "Sharing this link has failed."
-msgstr ""
+msgstr "فشلت مشاركة هذا الرابط ."
 
 #: bp-links-strings.php:25
 msgid "Sharing this link in your profile has failed."
-msgstr ""
+msgstr "فشلت مشاركة هذا الرابط في ملفك الشخصي ."
 
 #: bp-links-strings.php:26
 msgid "Sharing this link with the %s group has failed."
@@ -711,31 +719,31 @@ msgstr ""
 
 #: bp-links-strings.php:28
 msgid "Sharing with a group has failed."
-msgstr ""
+msgstr " فشلت المشاركه مع المجموعه ."
 
 #: bp-links-strings.php:29
 msgid "This link has already been shared in your profile."
-msgstr ""
+msgstr " تم مشاركة هذا الرابط بالفعل مسبقاً بملفك الشخصي ."
 
 #: bp-links-strings.php:30
 msgid "This link has been shared in your profile."
-msgstr ""
+msgstr "تمت مشاركة هذا الرابط في ملفك الشخصي."
 
 #: bp-links-strings.php:31
 msgid "This link has already been shared with the %s group."
-msgstr ""
+msgstr "هذا الرابط تمت مشاركته مسبقاً في %s مجموعة."
 
 #: bp-links-strings.php:32
 msgid "This link has been removed from this group."
-msgstr ""
+msgstr "تمت إزالة هذا الرابط من هذه المجموعة ."
 
 #: bp-links-strings.php:33
 msgid "This link has been removed from your profile."
-msgstr ""
+msgstr "تمت إزالة هذا الرابط من ملفك َ الشخصي ."
 
 #: bp-links-strings.php:34
 msgid "This link has been shared with the %s group."
-msgstr ""
+msgstr "تمت مشاركة هذا الرابط في %s مجموعة."
 
 #: bp-links-strings.php:35
 msgid ""
@@ -744,23 +752,23 @@ msgstr ""
 
 #: bp-links-strings.php:36
 msgid "You are not a member of the %s group."
-msgstr ""
+msgstr "أنت لست عضواً في %s مجموعة."
 
 #: bp-links-strings.php:37
 msgid "You must be logged in to remove links."
-msgstr ""
+msgstr "يجب أن تكون مسجلاً لتزيلالروابط ."
 
 #: bp-links-strings.php:38
 msgid "You must be logged in to share links."
-msgstr ""
+msgstr "يجب أن تكون مسجلاً لتشارك الروابط ."
 
 #: bp-links-templatetags.php:385
 msgid "Public Link"
-msgstr ""
+msgstr "رابط عام"
 
 #: bp-links-templatetags.php:387
 msgid "Friends Only Link"
-msgstr ""
+msgstr "رابط فقط للأصدقاء"
 
 #: bp-links-templatetags.php:389
 msgid "Hidden Link"
@@ -772,15 +780,15 @@ msgstr "رابط"
 
 #: bp-links-templatetags.php:496
 msgid "not yet active"
-msgstr ""
+msgstr "لم تصبح بعد نشطة"
 
 #: bp-links-templatetags.php:594
 msgid "%s vote"
-msgstr ""
+msgstr "%s صوت"
 
 #: bp-links-templatetags.php:596 bp-links-widgets.php:133
 msgid "%s votes"
-msgstr ""
+msgstr "%s أصوات"
 
 #: bp-links-templatetags.php:715
 msgid "Viewing link %1$d to %2$d (of %3$d links)"
@@ -788,19 +796,19 @@ msgstr ""
 
 #: bp-links-templatetags.php:752
 msgid "Edit Details"
-msgstr ""
+msgstr "تعديل التفاصيل"
 
 #: bp-links-templatetags.php:774
 msgid "This is a hidden link. Only the user who owns it can view it."
-msgstr ""
+msgstr "هذا هو الرابط الخفي. فقط المستخدم الذي يملك مشاهدته"
 
 #: bp-links-templatetags.php:776
 msgid "This is a friends only link. Only the owner's friends can view it."
-msgstr ""
+msgstr "هذا هو الرابط أصدقاء فقط.  الأصدقاءالمالكين هم فقط يمكن مشاهدته"
 
 #: bp-links-templatetags.php:778
 msgid "You do not have permission to access this link."
-msgstr ""
+msgstr "لم يكن لديك إذن للوصول إلى هذا الرابط."
 
 #: bp-links-templatetags.php:1262
 msgid "Viewing category %1$d to %2$d (of %3$d categories)"
@@ -816,63 +824,63 @@ msgstr "لا"
 
 #: bp-links-templatetags.php:1457
 msgid "A member posts a comment on a link you created"
-msgstr ""
+msgstr "الأعضاء يشاركون بالتعليق على الرابط الذي أنشأته "
 
 #: bp-links-templatetags.php:1499 bp-links-widgets.php:36
 msgid "Votes"
-msgstr ""
+msgstr "أصوات"
 
 #: bp-links-templatetags.php:1606
 msgid "External Link"
-msgstr ""
+msgstr "رابط خارجي"
 
 #: bp-links-templatetags.php:1641
 msgid "more..."
-msgstr ""
+msgstr "أكثر ..."
 
 #: bp-links-templatetags.php:1675
 msgid "Comments"
-msgstr ""
+msgstr "تعليقات"
 
 #: bp-links-templatetags.php:1682 bp-links-widgets.php:127
 msgid "created %s"
-msgstr ""
+msgstr "تم إنشاء %s"
 
 #: bp-links-templatetags.php:1690 themes/bp-links-admin/link-manager.php:74
 msgid "Last Active"
-msgstr ""
+msgstr "آخر نشاط"
 
 #: bp-links-templatetags.php:1691
 msgid "Most Popular"
-msgstr ""
+msgstr "الأكثر شُهرةً"
 
 #: bp-links-templatetags.php:1692
 msgid "Newly Created"
-msgstr ""
+msgstr "ًتم إنشاؤه حديثا"
 
 #: bp-links-templatetags.php:1693
 msgid "Most Votes"
-msgstr ""
+msgstr "الأكثر تصويتا ً"
 
 #: bp-links-templatetags.php:1694
 msgid "Highest Rated"
-msgstr ""
+msgstr "ًالأعلى تقييما"
 
 #: bp-links-widgets.php:13
 msgid "Your BuddyPress Links"
-msgstr ""
+msgstr " الخاص BuddyPress روابط "
 
 #: bp-links-widgets.php:34
 msgid "Newest"
-msgstr ""
+msgstr "أحدث"
 
 #: bp-links-widgets.php:35
 msgid "Active"
-msgstr ""
+msgstr "نشط"
 
 #: bp-links-widgets.php:37
 msgid "Rating"
-msgstr ""
+msgstr "التقييم"
 
 #: bp-links-widgets.php:38
 msgid "Popular"
@@ -884,19 +892,20 @@ msgstr ""
 
 #: bp-links-widgets.php:62
 msgid "There are no links to display."
-msgstr ""
+msgstr "عدم وجود روابط للعرض ."
 
 #: bp-links-widgets.php:83
 msgid "Max links to show:"
-msgstr ""
+msgstr "الحدالأقصى لعرض الروابط:"
 
+# مراجعة
 #: bp-links-widgets.php:148
 msgid "No links matched the current filter."
-msgstr ""
+msgstr "لا وجود روابط حاليه لتصفيه المتطابقه "
 
 #: feeds/bp-links-feed.php:22
 msgid "Most Recent Links"
-msgstr ""
+msgstr "أكثر الروابط المحدثة"
 
 #: feeds/bp-links-feed.php:26
 msgid "Most Recent Links Feed"
@@ -904,57 +913,57 @@ msgstr ""
 
 #: feeds/bp-links-link-feed.php:21
 msgid "Link Activity"
-msgstr ""
+msgstr "نشاطات الرابط"
 
 #: feeds/bp-links-link-feed.php:24
 msgid "%s - Link Activity Feed"
-msgstr ""
+msgstr "%s - تغذية نشاطات الروابط"
 
 #: feeds/bp-links-link-feed.php:43 feeds/bp-links-mylinks-feed.php:42
 msgid "Comments: %s"
-msgstr ""
+msgstr "تعليقات: %s"
 
 #: feeds/bp-links-mylinks-feed.php:21 feeds/bp-links-mylinks-feed.php:24
 msgid "My Links - Public Activity"
-msgstr ""
+msgstr "روابطي -نشاطات عامة "
 
 #: lib/wp-settings-framework.php:282
 msgid "Save Changes"
-msgstr ""
+msgstr "حفظ التغييرات"
 
 #: themes/bp-links-admin/category-edit.php:31
 msgid "Link Category Name"
-msgstr ""
+msgstr "أسم رابط التصنيف "
 
 #: themes/bp-links-admin/category-edit.php:35
 msgid "Description (optional)"
-msgstr ""
+msgstr "(الوصف (اختياري"
 
 #: themes/bp-links-admin/category-edit.php:39
 msgid "Priority (optional)"
-msgstr ""
+msgstr "(الأولوية (اختياري"
 
 #: themes/bp-links-admin/category-edit.php:40
 msgid "to"
-msgstr ""
+msgstr "ل"
 
 #: themes/bp-links-admin/category-list.php:24
 msgid "Search Categories"
-msgstr ""
+msgstr "بحث فيالتصنيفات"
 
 #: themes/bp-links-admin/category-list.php:35
 #: themes/bp-links-admin/link-manager.php:34
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: themes/bp-links-admin/category-list.php:35
 #: themes/bp-links-admin/link-manager.php:34
 msgid "Are you sure?"
-msgstr ""
+msgstr "هل أنت متأكد؟"
 
 #: themes/bp-links-admin/category-list.php:44
 msgid "Categories matching:"
-msgstr ""
+msgstr "تطابق التصنيفات : "
 
 #: themes/bp-links-admin/category-list.php:58
 #: themes/bp-links-default/single/forms/details.php:34
@@ -972,28 +981,28 @@ msgstr ""
 
 #: themes/bp-links-admin/category-list.php:67
 msgid "Priority"
-msgstr ""
+msgstr " الأولويه "
 
 #: themes/bp-links-admin/category-list.php:89
 #: themes/bp-links-admin/link-manager.php:98
 msgid "Edit"
-msgstr "حرر"
+msgstr "تعديل"
 
 #: themes/bp-links-admin/category-list.php:99
 msgid "No categories found."
-msgstr ""
+msgstr "لم يتم العثور على تصنيفات"
 
 #: themes/bp-links-admin/index.php:21
 msgid "Thank you for installing BuddyPress Links!"
-msgstr ""
+msgstr "شكرا لكم لتثبيت روابط BuddyPress!"
 
 #: themes/bp-links-admin/index.php:27
 msgid "Version Information"
-msgstr ""
+msgstr "إصدار المعلومات "
 
 #: themes/bp-links-admin/index.php:33
 msgid "Base:"
-msgstr ""
+msgstr "قاعدة:"
 
 #: themes/bp-links-admin/index.php:37
 msgid "Pro Extension:"
@@ -1001,7 +1010,7 @@ msgstr ""
 
 #: themes/bp-links-admin/index.php:41
 msgid "Purchase"
-msgstr ""
+msgstr "شراء"
 
 #: themes/bp-links-admin/index.php:48
 msgid "Additional Activation Steps:"
@@ -1190,7 +1199,7 @@ msgstr ""
 
 #: themes/bp-links-admin/index.php:119
 msgid "collection."
-msgstr ""
+msgstr "مجموعة ."
 
 #: themes/bp-links-admin/link-manager.php:21
 #: themes/bp-links-admin/link-manager.php:23
@@ -1204,28 +1213,28 @@ msgstr ""
 #: themes/bp-links-admin/link-manager.php:59
 #: themes/bp-links-default/single/forms/details.php:10
 msgid "Details"
-msgstr ""
+msgstr "تفاصيل"
 
 #: themes/bp-links-admin/link-manager.php:62
 #: themes/bp-links-default/single/forms/details.php:14
 msgid "Category"
-msgstr ""
+msgstr "تصنيف"
 
 #: themes/bp-links-admin/link-manager.php:65
 msgid "Type"
-msgstr ""
+msgstr "نوع"
 
 #: themes/bp-links-admin/link-manager.php:68
 msgid "Owner"
-msgstr ""
+msgstr "المالك"
 
 #: themes/bp-links-admin/link-manager.php:71
 msgid "Created"
-msgstr ""
+msgstr "تم الإنشاء"
 
 #: themes/bp-links-admin/link-manager.php:108
 msgid "No links found."
-msgstr ""
+msgstr " لم يتك العثور على رابط ."
 
 #: themes/bp-links-admin/settings.php:23
 msgid "Setting applies to pro extension only"
@@ -1304,28 +1313,28 @@ msgstr ""
 
 #: themes/bp-links-default/activity/post-form.php:12
 msgid "Comment on this link, %s?"
-msgstr ""
+msgstr "علّق على هذاالرابط, %s?"
 
 #: themes/bp-links-default/activity/post-form.php:23
 msgid "Post Update"
-msgstr ""
+msgstr "نشر تحديث"
 
 #: themes/bp-links-default/create.php:6 themes/bp-links-default/index.php:8
 msgid "Create a Link"
-msgstr ""
+msgstr "إنشاء رابط"
 
 #: themes/bp-links-default/create.php:6 themes/bp-links-default/index.php:8
 msgid "Links Directory"
-msgstr ""
+msgstr "دليل الروابط"
 
 #: themes/bp-links-default/index.php:18
 msgid "All Links"
-msgstr ""
+msgstr "كل الروابط"
 
 #: themes/bp-links-default/index.php:33
 #: themes/bp-links-default/single/activity.php:3
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: themes/bp-links-default/links-loop.php:41
 msgid "There were no links found."
@@ -1442,23 +1451,23 @@ msgstr ""
 #: themes/bp-links-default/single/forms/details.php:114
 msgid ""
 "This link will NOT be listed in the links directory or in search results."
-msgstr ""
+msgstr "هذا الرابط لن يتم إدراجه في دليل الروابط أو نتائج البحث"
 
 #: themes/bp-links-default/single/forms/details.php:104
 msgid "Link content and activity will only be visible to your friends."
-msgstr ""
+msgstr "رابط المحتوى والنشاط سيكون مرئي لأصدقائك فقط . "
 
 #: themes/bp-links-default/single/forms/details.php:110
 msgid "This is a hidden link"
-msgstr ""
+msgstr "هذا الرابط مخفي"
 
 #: themes/bp-links-default/single/forms/details.php:113
 msgid "Only you can see the link."
-msgstr ""
+msgstr "فقط أنت من يمكنك مشاهده الرابط ."
 
 #: themes/bp-links-default/single/forms/details.php:115
 msgid "Link content and activity will only be visible to you."
-msgstr ""
+msgstr "رابط المحتوى والنشاط سيكون مرئي لك فقط ."
 
 #: themes/bp-links-default/single/forms/details.php:126
 msgid "Save Link"
@@ -1466,8 +1475,8 @@ msgstr "حفظ الرابط"
 
 #: themes/bp-links-default/single/link-header.php:7
 msgid "Link Owner"
-msgstr ""
+msgstr "مالك الرابط"
 
 #: themes/bp-links-default/single/link-header.php:26
 msgid "active %s"
-msgstr ""
+msgstr "نشط %s"
